@@ -1,10 +1,8 @@
 # Doug
 
-Doug is a vector sprite.
-
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-He is made of three things: 
+Doug is a vector sprite. He is made of three things: 
 
 * One Typescript file
 * One CSS stylesheet
