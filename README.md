@@ -1,14 +1,14 @@
-# Doug
-
-Doug is a vector sprite.
+### Doug
 
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-He is made of three things: 
+The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
+
+Each vector sprite is made of three parts: 
 
 * One Typescript file
 * One CSS stylesheet
-* An HTML5 template containing the vector path information
+* An HTML5 template containing the vector path information (SVG)
 
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of living vector components which are easy to edit and organize. Welcome to Doug's world! 
 
