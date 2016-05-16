@@ -2,7 +2,7 @@
 
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-The Doug project is a pattern for managing vector sprites in Angular 2. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
+Doug is a pattern for working with vector sprites in Angular2. The focus right now is on the output (small static files ready for production).
 
 Each vector sprite is made of three parts: 
 
@@ -10,7 +10,7 @@ Each vector sprite is made of three parts:
 * One CSS stylesheet
 * An HTML5 template containing the vector path information (SVG)
 
-This works great with webpack as there are no actual SVG files or images. The result is a very small tree of living vector components which are easy to edit and organize. Welcome to Doug's world! 
+This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world! 
 
 #### Libraries
 
