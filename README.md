@@ -1,12 +1,14 @@
 # Doug
 
+We want to animate Angular2 components without canvas or webgl. The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on @Animate.
+
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-Doug is a vector sprite. He is made of three things: 
+Each vector sprite is made of three things: 
 
 * One Typescript file
 * One CSS stylesheet
-* An HTML5 template containing the vector path information
+* An HTML5 template containing the vector path information (SVG)
 
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of living vector components which are easy to edit and organize. Welcome to Doug's world! 
 
