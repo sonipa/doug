@@ -32,3 +32,7 @@ This works great with webpack as there are no actual SVG files or images. The re
 #### Deploy
 
 * `npm run build` webpack creates build in dist
+
+#### History
+
+* __5/15/2016__ Doug started as an [hackathon submission](https://www.angularattack.com/entries/3433-the-detectives) and moved here. That was.. today!
