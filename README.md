@@ -2,7 +2,7 @@
 
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-Doug is a pattern for working with vector sprites in Angular2. The focus is on the output - small static, ready for production. No SVG files or images needed.
+Doug is a pattern for working with vector sprites in Angular2. The focus right now is on the output (small static files ready for production).
 
 Each vector sprite is made of three parts: 
 
