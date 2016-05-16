@@ -1,2 +1,4 @@
 # doug
-A pattern for vector sprites in Angular 2
+A pattern for vector sprite in Angular 2
+
+### work in progress
