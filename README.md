@@ -25,16 +25,14 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### Install
 
-First, make sure you have the latest [Node](https://nodejs.org)
-
 * `git clone git@github.com:sonipa/doug.git`
 * `cd doug`
 * `npm install`
 
 #### Edit
 
-* `npm start` will start the server locally - you're on your way to Detectives
+* `npm start` webpack-dev-server on port 8080
 
 #### Deploy
 
-* `npm run build` creates a small static package in the /dist folder
+* `npm run build` webpack creates build in dist
