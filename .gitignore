@@ -36,3 +36,4 @@ node_modules
 /.project
 /.settings/
 /typings/
+/dist/
