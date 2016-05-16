@@ -12,6 +12,8 @@ module.exports = webpackMerge(commonConfig, {
     chunkFilename: '[id].chunk.js'
   },
   plugins: [
+    // Our CSS are buried inside our Javascript bundles by deault.
+    // The ExtractTextPlugin extracts them into external .css files that the HtmlWebpackPlugin inscribes as <link> tags into the index.html
     new ExtractTextPlugin('[name].css')
   ],
   devServer: {
