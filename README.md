@@ -1,4 +1,4 @@
-# [Doug]
+# Doug
 
 Doug is a vector sprite.
 
