@@ -35,4 +35,4 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### History
 
-* __5/15/2016__ Doug started as an [hackathon submission](https://www.angularattack.com/entries/3433-the-detectives) and moved here. That was.. today!
+* __5/15/2016__ Doug started as an [AngularAttack Submission](https://www.angularattack.com/entries/3433-the-detectives) and moved here. That was.. today!
