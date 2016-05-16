@@ -25,6 +25,8 @@ build/Release
 
 # Dependency directory
 node_modules
+/typings/
+/dist/
 
 # Optional npm cache directory
 .npm
@@ -35,5 +37,3 @@ node_modules
 # IDEs
 /.project
 /.settings/
-/typings/
-/dist/
