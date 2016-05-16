@@ -2,7 +2,7 @@
 
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-The Doug project is a pattern for managing vector sprites in Angular 2. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
+Doug is a pattern for working with vector sprites in Angular2. The focus right now is on the output (small static files ready for production).
 
 Each vector sprite is made of three parts: 
 
