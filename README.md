@@ -12,7 +12,7 @@ Each vector sprite is made of three parts:
 
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world!
 
-> This is the very beginning of a project with a big vision. We are at the beginning stage with small webpacked TS components. When I can get @Animation through webpack, these sprites will be moving.
+> We are at the very beginning of a large project. When I can get @Animation through webpack, these sprites will be moving. There are about a hundred milestones after that. This first step is creating Typescript manipulatable Angular2 vector sprites that can be minified to a tiny site.
 
 #### Libraries
 
