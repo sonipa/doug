@@ -1,6 +1,6 @@
-# Doug
+### Doug
 
-We want to animate Angular2 components without canvas or webgl. The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on @Animate.
+The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
 
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
