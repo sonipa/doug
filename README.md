@@ -10,7 +10,9 @@ Each vector sprite is made of three parts:
 * One CSS stylesheet
 * An HTML5 template containing the vector path information (SVG)
 
-This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world! 
+This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world!
+
+> This is the very beginning of a project with a grand vision. We start with small webpacked TS components. Next is moving them.
 
 #### Libraries
 
