@@ -1,4 +1,4 @@
-# [Doug]
+# Doug
 
 Doug is a vector sprite.
 
@@ -12,10 +12,6 @@ He is made of three things:
 
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of living vector components which are easy to edit and organize. Welcome to Doug's world! 
 
-#### Links
-
-* Coming Soon
-
 #### Libraries
 
 * [Angular 2](https://github.com/angular/quickstart) as the structural framework
@@ -25,16 +21,14 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### Install
 
-First, make sure you have the latest [Node](https://nodejs.org)
-
 * `git clone git@github.com:sonipa/doug.git`
 * `cd doug`
 * `npm install`
 
 #### Edit
 
-* `npm start` will start the server locally - you're on your way to Detectives
+* `npm start` webpack-dev-server on port 8080
 
 #### Deploy
 
-* `npm run build` creates a small static package in the /dist folder
+* `npm run build` webpack creates build in dist
