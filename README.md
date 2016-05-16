@@ -12,6 +12,8 @@ Each vector sprite is made of three parts:
 
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world! 
 
+![Doug's World](https://s3.amazonaws.com/sonipa/doug-screen.png "Doug is about DOM and Output")
+
 #### Libraries
 
 * [Angular 2](https://github.com/angular/quickstart) as the structural framework
