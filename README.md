@@ -1,10 +1,10 @@
 ### Doug
 
-The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
-
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
-Each vector sprite is made of three things: 
+The Doug project is a pattern for managing vector sprites. The goal here is to bring them to life. Once this part is done, we'll focus on integrating @Animate.
+
+Each vector sprite is made of three parts: 
 
 * One Typescript file
 * One CSS stylesheet
