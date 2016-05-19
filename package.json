@@ -4,7 +4,7 @@
   "description": "SVG Animation Library for Angular2",
   "author":"David Mulhern <david@mulhern.me> (http://davidmulhern.com/)",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --colors --port 8081",
+    "start": "webpack-dev-server --inline --progress --colors --port 8080",
     "test": "karma start",
     "build": "rm -rf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "postinstall": "typings install"
