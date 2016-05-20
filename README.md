@@ -25,7 +25,7 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### Install
 
-* we are switching to Angular Universal so this in changing
+* Starting the transition to [Angular Universal](https://github.com/angular/universal) so this in changing
 
 #### Edit
 
