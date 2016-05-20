@@ -20,21 +20,21 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### Libraries
 
-* [Angular 2](https://github.com/angular/quickstart) as the structural framework
-* [Webpack Module Bundler](https://github.com/webpack/webpack) as the static asset generator
+* [Angular 2](https://github.com/angular/quickstart) / structural framework
+* [Angular Universal](https://github.com/angular/universal) / overall pattern
+* [Webpack Module Bundler](https://github.com/webpack/webpack) / static asset generator
 
-#### Install
+## Installation
 
-* Starting the transition to [Angular Universal](https://github.com/angular/universal) so these instructions will be updated
+* `npm install`
 
-#### Edit
+## Serve
 
-* ~~`npm start` webpack-dev-server on port 8080~~
+* `npm start` to build your client app and start a web server
+* `npm run build` to prepare a distributable bundle
 
-#### Deploy
+## Development
+* run `npm start` and `npm run watch` in two separate terminals to build your client app, start a web server, and allow file changes to update in realtime
 
-* ~~`npm run build` webpack creates build in dist~~
-
-#### History
-
-* __5/15/2016__ Doug started as an [AngularAttack Submission](https://www.angularattack.com/entries/3433-the-detectives) and moved here. That was.. today!
+## Watch files
+* `npm run watch` to build your client app and start a web server
