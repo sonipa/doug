@@ -2,6 +2,8 @@ import {Component, Directive, ElementRef, Renderer} from '@angular/core';
 import {RouteConfig, ROUTER_DIRECTIVES} from '@angular/router-deprecated';
 import {Http} from '@angular/http';
 
+import {DougComponent} from '../sprites/puppets/doug/doug.component';
+
 /////////////////////////
 // ** Example Directive
 // Notice we don't touch the Element directly
@@ -42,7 +44,8 @@ export class About { }
   selector: 'app', // <app></app>
   directives: [
     ...ROUTER_DIRECTIVES,
-    XLarge
+    XLarge,
+    DougComponent
   ],
   styles: [`
     * { padding:0; margin:0; }
@@ -64,6 +67,7 @@ export class About { }
     <a [routerLink]=" ['./Home'] ">Home</a>
     <a [routerLink]=" ['./About'] ">About</a>
   </nav>
+  <doug-sprite></doug-sprite>
   <div class="hero-universal">
     <div class="inner-hero">
       <div>
