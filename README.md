@@ -25,17 +25,15 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 #### Install
 
-* `git clone git@github.com:sonipa/doug.git`
-* `cd doug`
-* `npm install`
+* we are switching to Angular Universal so this in changing
 
 #### Edit
 
-* `npm start` webpack-dev-server on port 8080
+* ~~`npm start` webpack-dev-server on port 8080~~
 
 #### Deploy
 
-* `npm run build` webpack creates build in dist
+* ~~`npm run build` webpack creates build in dist~~
 
 #### History
 
