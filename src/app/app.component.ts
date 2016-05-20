@@ -31,7 +31,7 @@ export class XLarge {
     <div class="water"><doug-sprite></doug-sprite></div>
   `,
   styles: [`
-   .water{padding:80px;  background:#A5D3FF;}
+   .water{padding:80px; background:#A5D3FF;border-radius:.8em; }
   `],
 })
 export class Home { }
@@ -59,6 +59,7 @@ export class About { }
   ],
   styles: [`
    pre {
+     display:none;
    padding:20px;
    font-size:10px;
    border-top:#ccc 6px solid;
