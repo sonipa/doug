@@ -1,5 +1,7 @@
 ### Doug
 
+> This project is a prototype/work in progress at this point
+
 ![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
 
 Doug is a pattern for working with vector sprites in Angular2. The focus right now is on the output (small static files ready for production).
