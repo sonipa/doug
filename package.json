@@ -19,8 +19,7 @@
   },
   "license": "MIT",
   "contributors": [
-    "sonipa <david@mulhern.me>",
-    // You perhaps?
+    "sonipa <david@mulhern.me>"
   ],
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
