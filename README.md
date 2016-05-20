@@ -18,23 +18,23 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 ![Doug's World](https://s3.amazonaws.com/sonipa/doug-screen.png "Doug is about DOM and Output")
 
-#### Libraries
+#### Ingredients
 
 * [Angular 2](https://github.com/angular/quickstart) / structural framework
-* [Angular Universal](https://github.com/angular/universal) / overall pattern
+* [Angular Universal](https://github.com/angular/universal) / base pattern
 * [Webpack Module Bundler](https://github.com/webpack/webpack) / static asset generator
 
-## Installation
+#### Installation
 
 * `npm install`
 
-## Serve
+#### Serve
 
 * `npm start` to build your client app and start a web server
 * `npm run build` to prepare a distributable bundle
 
-## Development
+#### Development
 * run `npm start` and `npm run watch` in two separate terminals to build your client app, start a web server, and allow file changes to update in realtime
 
-## Watch files
+#### Watch files
 * `npm run watch` to build your client app and start a web server
