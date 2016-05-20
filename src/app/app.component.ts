@@ -59,25 +59,30 @@ export class About { }
   ],
   styles: [`
    pre {
+   padding:20px;
+   font-size:10px;
    border-top:#ccc 6px solid;
    background:#f2f2f2;
    }
+   input {
+     background:none;border:none;
+     font-family: monospace;
+    white-space: pre;}
   `],
   template: `
   <main>
     <router-outlet></router-outlet>
   </main>
   
-    
-  
 <pre>
 async data:
 {{ data | json }}
-about controller: <a [routerLink]=" ['./About'] ">About</a>
-home link: <a [routerLink]=" ['./Home'] ">Home</a>
+home: <a [routerLink]=" ['./Home'] ">Home</a>
+about: <a [routerLink]=" ['./About'] ">About</a>
 title: {{ title }}
 binding: two way binding: <input type="text" [value]="title" (input)="title = $event.target.value" autofocus>
 server message: {{ server }}
+cli: npm start / npm run build / npm run watch
 </pre>
   `
 })
@@ -88,7 +93,7 @@ server message: {{ server }}
   { path: '/**', redirectTo: ['Home'] }
 ])
 export class App {
-  title: string = 'ftw';
+  title: string = 'doug';
   data = {};
   server: string;
 
@@ -96,7 +101,7 @@ export class App {
 
   ngOnInit() {
     setTimeout(() => {
-      this.server = 'This was rendered from the server!';
+      this.server = 'is doug here?';
     }, 10);
 
     this.http.get('/data.json')
