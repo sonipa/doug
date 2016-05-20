@@ -1,10 +1,10 @@
 {
-  "name": "universal-starter",
-  "version": "2.0.0",
-  "description": "Angular 2 Universal starter kit by @AngularClass",
+  "name": "doug",
+  "version": "1.0.3",
+  "description": "Angular 2 Vector Sprite Animation Framework",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular/universal-starter.git"
+    "url": "https://github.com/sonipa/doug.git"
   },
   "scripts": {
     "postinstall": "typings install",
@@ -19,10 +19,8 @@
   },
   "license": "MIT",
   "contributors": [
-    "AngularClass <hello@angularclass.com>",
-    "PatrickJS <patrick@angularclass.com>",
-    "Jeff Whelpley <jeff@gethuman.com>",
-    "Jeff Cross <crossj@google.com>"
+    "sonipa <david@mulhern.me>",
+    // You perhaps?
   ],
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
