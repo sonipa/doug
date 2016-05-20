@@ -21,7 +21,7 @@ This works great with webpack as there are no actual SVG files or images. The re
 #### Ingredients
 
 * [Angular 2](https://github.com/angular/quickstart) / structural framework
-* [Angular Universal](https://github.com/angular/universal) / overall pattern
+* [Angular Universal](https://github.com/angular/universal) / base pattern
 * [Webpack Module Bundler](https://github.com/webpack/webpack) / static asset generator
 
 #### Installation
