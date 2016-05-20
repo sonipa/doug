@@ -18,7 +18,7 @@ This works great with webpack as there are no actual SVG files or images. The re
 
 ![Doug's World](https://s3.amazonaws.com/sonipa/doug-screen.png "Doug is about DOM and Output")
 
-#### Libraries
+#### Ingredients
 
 * [Angular 2](https://github.com/angular/quickstart) / structural framework
 * [Angular Universal](https://github.com/angular/universal) / overall pattern
