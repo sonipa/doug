@@ -1,7 +1,7 @@
 {
   "name": "doug",
   "version": "1.0.3",
-  "description": "Angular 2 Vector Sprite Animation Framework",
+  "description": "vector sprite animation",
   "repository": {
     "type": "git",
     "url": "https://github.com/sonipa/doug.git"
