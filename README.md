@@ -2,8 +2,6 @@
 
 > This project is a prototype/work in progress at this point
 
-![Doug](https://s3.amazonaws.com/sonipa/doug.jpg "Doug")
-
 Doug is a pattern for working with vector sprites in Angular2. The focus right now is on the output (small static files ready for production).
 
 Each vector sprite is made of three parts: 
@@ -15,8 +13,6 @@ Each vector sprite is made of three parts:
 This works great with webpack as there are no actual SVG files or images. The result is a very small tree of ~~living~~ (one day) vector components which are easy to edit and organize. Welcome to Doug's world!
 
 > We are at the very beginning of this project. The first step is providing Typescript manipulatable Angular2 vector sprite components that can be minified to a collection of static files.
-
-![Doug's World](https://s3.amazonaws.com/sonipa/doug-screen.png "Doug is about DOM and Output")
 
 #### Ingredients
 
